@@ -1,0 +1,46 @@
+html{
+    font-size: 16px;
+    font-weight: 200;
+    font-family:  sans-serif;
+    /*font-size: 62.5%;*/
+    /* setting it to 62.5 percent makes 1rem to 10 pixel */
+    }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-top{
+    width: 300px;
+    height: 300px;
+    text-align: justify;
+    padding: 15px; 
+    background-color: rgb(175, 228, 228);
+}
+
+.main-bottom{
+    text-align: left;
+    width: 300px;
+    height: 150px;
+    padding: 15px;
+    background-color: bisque;
+    list-style-position: inside;
+}
+
+h1,
+h3{
+    text-align: center;
+}
+
+
+
