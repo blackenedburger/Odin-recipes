@@ -1,9 +1,10 @@
 html{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 200;
     font-family:  sans-serif;
     /*font-size: 62.5%;*/
     /* setting it to 62.5 percent makes 1rem to 10 pixel */
+    background-color: rgb(164, 165, 245);
     }
 
 * {
@@ -13,31 +14,73 @@ html{
 }
 
 .main{
-    z-index: 1;
-    text-align: center;
+    
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    position: relative;
+  /*border: 3px solid green;*/
+    
 }
 
-.main-top{
-    width: 400px;
+.index-centered{
+    display: flex;
+    flex-direction: row; 
+    margin-left: 30%;
+    margin-top: 15%;
+    align-items: center;
+    position: relative;
+}
+
+.left{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.right{
+        display: flex;
+        flex-direction: column;
+}
+
+img{
+    margin: 15px;
+    margin-top: 30px;
+    border-radius: 25%;
+}
+
+.recipe-list{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    /*width: auto;*/
+    width: 300px;
+    height: 220px;
+    padding: 25px; 
+    margin: 15px;
+    border-radius: 25%;
+    /*margin-top: 75px;*/
+    justify-content: space-evenly;
+}
+
+.write-up{
+    width: 300px;
     height: auto;
     text-align: justify;
-    padding: 15px; 
+    padding: 25px; 
     margin: 15px;
     border-radius: 25%;
     background-color: rgb(175, 228, 228);
 }
 
-.main-bottom{
+.back{
     text-align: left;
-    width: 400px;
+    width: auto;
     height: auto;
-    padding: 15px;
+    padding: 25px;
     margin: 15px;
     background-color: bisque;
-    list-style-position: inside;
+    list-style-type: none;
     border-radius: 25%;
 }
 
@@ -50,11 +93,12 @@ h2{
 .ingredients{
     width: 600px;
     height: auto;
-    background-color: rgb(153, 184, 140);
+    background-color: rgb(129, 218, 166);
     list-style-position: inside;
     text-align: left;
-    padding: 15px;
+    padding: 40px;
     margin: 15px;
+    border-radius: 25%;
 }
 
 .instructions{
@@ -63,6 +107,8 @@ h2{
     background-color: rgb(124, 197, 240);
     list-style-position: inside;
     text-align: left;
-    padding: 15px;
+    padding: 35px;
     margin: 15px;
+    border-radius: 25%;
 }
+
